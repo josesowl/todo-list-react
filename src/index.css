@@ -1,0 +1,45 @@
+body {
+    padding: 20px;
+}
+
+button {
+    margin: 10px;
+    max-height: 43px;    
+    align-self: center;
+}
+
+button:hover {
+    box-shadow: 3px 10px 10px var(--grayish-blue) ;
+    transform: scale(1.05);
+    transition: all 0.101s ease-in-out;
+}
+
+li {    
+    position: absolute;
+}
+
+span {
+    padding: 15px 5px;
+}
+
+span:hover {
+    color: gray;
+    box-shadow: 3px 10px 10px var(--grayish-blue) ;
+    transform: scale(1.05);
+    transition: all 0.101s ease-in-out;
+}
+
+li:hover {
+    box-shadow: 3px 10px 10px grey ;
+    transform: scale(1.05);
+    transition: all 0.101s ease-in-out;
+    cursor: pointer;
+    z-index: 1;
+}
+
+input:hover {
+    box-shadow: 3px 10px 10px var(--grayish-blue) ;
+    transform: scale(1.05);
+    transition: all 0.101s ease-in-out;
+    border-color: black;
+}

@@ -26,7 +26,7 @@ export const TodoAdd = ( { onNewTodo } ) => {
     <form onSubmit={ onFormSubmit }>
         <input 
         type="text"
-        placeholder="¿Qué hay que hacer?"
+        placeholder="¿What do we have to do 😁 ?"
         className="form-control"
         name="description"
         value={ description }
@@ -37,10 +37,10 @@ export const TodoAdd = ( { onNewTodo } ) => {
         type="submit"
         className="add-button btn btn-outline-primary mt-3"
         >
-        Agregar
+        Add task
         </button>
 
-        <p>Selecciona la tarea para marcarla como hecha</p>
+        <p>Select the task to mark it as done</p>
 
     </form>
   )

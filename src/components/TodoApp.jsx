@@ -10,8 +10,8 @@ export const TodoApp = () => {
     return (
         <>
             <div className="title">
-                <h1>Tareas: { todosCounter } </h1>
-                <h1><small> pendientes: { pendingCounter } </small></h1>
+                <h1>Tasks to do: { todosCounter } </h1>                
+                <h1><small> You have { pendingCounter }: pending to review </small></h1>
                 <hr />
 
             </div>
@@ -24,7 +24,7 @@ export const TodoApp = () => {
                 </div>
 
                 <div className="col-5">
-                    <h2>Mis Tareas</h2>
+                    <h2>My list</h2>
                     <hr />
 
                     <TodoAdd onNewTodo={ handleNewTodo }/>

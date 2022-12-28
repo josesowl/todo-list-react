@@ -9,8 +9,12 @@ export const TodoApp = () => {
 
     return (
         <>
-            <h1>Todo App: { todosCounter } <small> pendientes: { pendingCounter } </small></h1>
-            <hr />
+            <div className="title">
+                <h1>Tareas: { todosCounter } </h1>
+                <h1><small> pendientes: { pendingCounter } </small></h1>
+                <hr />
+
+            </div>
 
             <div className="row">
                 <div className="col-7">
@@ -20,7 +24,7 @@ export const TodoApp = () => {
                 </div>
 
                 <div className="col-5">
-                    <h4>Agregar TODO</h4>
+                    <h2>Mis Tareas</h2>
                     <hr />
 
                     <TodoAdd onNewTodo={ handleNewTodo }/>
@@ -28,6 +32,8 @@ export const TodoApp = () => {
                 </div>
 
             </div>
+
+            <footer> Coded by: <a href="https://github.com/josesowl"> José David Montes </a> </footer>
 
             
         </>
